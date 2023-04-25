@@ -6,6 +6,10 @@
 }
 
 
+
+
+
+
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -19,6 +23,11 @@
 }
 
 
+
+
+
+
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -26,9 +35,16 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+
+
 section{
     padding: 2rem 9%;
 }
+
+
+
 
 .heading{
     text-align: center;
@@ -43,7 +59,8 @@ section{
     color: var(--ornage);
 }
 
-.btn{
+.btn
+{
     display: inline-block;
     margin-top: 1rem;
     border-radius: .5rem;
@@ -56,12 +73,17 @@ section{
     padding: .8rem 3rem;
 }
 
+
+
 .btn:hover{
     background: var(--ornage);
     color:#fff;
 }
 
-header{
+
+
+header
+{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
@@ -88,6 +110,9 @@ header .navbar a:hover{
     color:var(--ornage);
 }
 
+
+
+
 header .icons a{
     font-size: 2.5rem;
     color:var(--black);
@@ -97,6 +122,8 @@ header .icons a{
 header .icons a:hover{
     color: var(--ornage);
 }
+
+
 
 #menu-bar{
     font-size: 2.5rem;
@@ -112,6 +139,8 @@ header .icons a:hover{
     padding: 0;
     position: relative;
 }
+
+
 
 .home .slide-container .slide{
     min-height: 100vh;
@@ -135,6 +164,8 @@ header .icons a:hover{
         transform: translateX(-10rem);
     }
 }
+
+
 
 .home .slide-container .slide .image{
     flex: 1 1 50rem;
@@ -171,6 +202,8 @@ header .icons a:hover{
     }
 }
 
+
+
 @keyframes comic{
     0%{
         transform: rotate(0deg) scale(.5);
@@ -200,6 +233,9 @@ header .icons a:hover{
     font-size: 5rem;
     color: var(--black);
 }
+
+
+
 
 .home .slide-container .slide .content p{
     font-size: 1.7rem;
@@ -607,7 +643,6 @@ header .icons a:hover{
 
 
 
-/*Media Queries*/
 @media(max-width:991px){
     html{
         font-size: 55%;
