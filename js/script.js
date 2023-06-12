@@ -60,3 +60,27 @@ window.addEventListener('DOMContentLoaded', function() {
   
 
 
+// Assuming you have an "Add to Cart" button with the id "addToCartButton"
+// and a cart icon with the id "cartIcon"
+
+// Get the button element
+const addToCartButton = document.getElementById('addToCartButton');
+
+// Get the cart icon element
+const cartIcon = document.getElementById('cartIcon');
+
+// Set the initial cart count
+let cartCount = 0;
+
+// Add event listener to the "Add to Cart" button
+addToCartButton.addEventListener('click', function() {
+  // Increase the cart count by one
+  cartCount++;
+
+  // Update the cart icon with the new count
+  cartIcon.textContent = cartCount.toString();
+});
+
+
+
+
